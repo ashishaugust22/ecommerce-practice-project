@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ... */
-
 @layer base {
   :root {
 
@@ -116,4 +114,9 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  @apply h-svh flex items-center justify-center;
+  @apply bg-neutral-600;
 }
