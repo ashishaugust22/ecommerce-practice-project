@@ -118,5 +118,9 @@
 
 body {
   @apply h-svh;
-  @apply bg-neutral-600;
+  @apply bg-neutral-900;
+}
+
+#root {
+  @apply h-svh;
 }

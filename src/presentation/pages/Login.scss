@@ -1,0 +1,10 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @apply h-full;
+    .auth-form{
+        width: 500px;
+        max-width: 500px;
+    }
+}
